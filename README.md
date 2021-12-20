@@ -1,2 +1,0 @@
-# BeamDocs
-All docs here
