@@ -4,10 +4,10 @@ nav:
     - Home: index.md
     - Getting Started: start.md
     - User Guide: user_guide.md
-        - Beam Module: ./user_guide/beam_module.md
-        - Beam Sentry: ./user_guide/beam_sentry.md
-        - Beam Manager: ./user_guide/beam_manager.md
-        - Octo Beam: ./user_guide/beam_octo.md
+        - Beam Module: user_guide/beam_module.md
+        - Beam Sentry: user_guide/beam_sentry.md
+        - Beam Manager: user_guide/beam_manager.md
+        - Octo Beam: user_guide/beam_octo.md
     - Developer Guide: dev_guide.md
-        - Beam Source Code: ./dev_guide/beam_source_code.md
+        - Beam Source Code: dev_guide/beam_source_code.md
     - About: about.md
