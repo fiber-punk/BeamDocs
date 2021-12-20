@@ -3,11 +3,11 @@ site_url: https://example.com/
 nav:
     - Home: index.md
     - Getting Started: start.md
-    - User Guide: user_guide.md
-        - Beam Module: user_guide/beam_module.md
-        - Beam Sentry: user_guide/beam_sentry.md
-        - Beam Manager: user_guide/beam_manager.md
-        - Octo Beam: user_guide/beam_octo.md
-    - Developer Guide: dev_guide.md
-        - Beam Source Code: dev_guide/beam_source_code.md
+    - User Guide: user-guide.md
+        - Beam Module: user-guide/beam_module.md
+        - Beam Sentry: user-guide/beam_sentry.md
+        - Beam Manager: user-guide/beam_manager.md
+        - Octo Beam: user-guide/beam_octo.md
+    - Developer Guide: dev-guide.md
+        - Beam Source Code: dev-guide/beam_source_code.md
     - About: about.md
