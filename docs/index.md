@@ -1,25 +1,18 @@
-
-
 # Welcome to Beam's documentation!
 
-## 目录
+## Beam模块介绍
 
-本文档手册包含了所有Beam相关的介绍，如下是文档目录:
 
-- [Beam 模块](./beam_module.md)
-    - 规格参数
-    - 安装到打印机
-    - 远程控制与打印
-    - 扩展接口
-- [Beam Sentry](./beam_sentry.md)
-    - 规格参数
-    - 安装到打印机
-    - 监控
-- [Beam Manager](./beam_mamager.md)
-    - 下载和安装
-    - 软件简介
-    - 功能介绍
+Beam是一款针对FDM而开发，解决让大部分FDM设备具备wifi传输文件和wifi控制打印的功能。区别于树莓派，beam模块使用了更加简洁的微处理器来处理这些任务。
+- 便于配置
+- 低成本，高性价比
+- 可扩展
+- 可定制(固件开源)
 
-- [OctoBeam](./beam_octo.md)
-    - 扩展库介绍
-    - 核心接口介绍
+Beam的参数规格:
+
+
+## Beam Sentry模块介绍
+
+Beam Sentry参数规格
+
