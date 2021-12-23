@@ -11,3 +11,10 @@ nav:
     - Developer Guide:
         - Beam Source Code: dev-guide/beam-source-code.md
     - About: about.md
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+
+extra_css:
+  - stylesheets/extra.css

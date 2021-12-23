@@ -1,7 +1,6 @@
-## Beam模块介绍
+## 1.Beam模块介绍
 
 <div align=center>
-<h2>Beam模块介绍</h2>
 <img src="./images/module-1.png" width=600 />
 </div>
 
@@ -26,7 +25,7 @@ Beam的基本参数规格:
 
 
 
-## Beam Camera模块介绍
+## 2.BeamCamera模块介绍
 
 Beam Camear是一个wifi摄像头，配合Beam使用，可以实现wifi监控以及打印失败检测等功能。
 
