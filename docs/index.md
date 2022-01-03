@@ -25,7 +25,7 @@ Beam的基本参数规格:
 
 
 
-## 2.BeamCamera模块介绍
+## 2.BeamSentry模块介绍
 
-Beam Camear是一个wifi摄像头，配合Beam使用，可以实现wifi监控以及打印失败检测等功能。
+Beam Camear是一个wifi摄像头，配合Beam使用，可以实现wifi监控以及打印失败检测等功能。同时BeamSentry还可以扩展接串口，以及断料检测模块。
 
