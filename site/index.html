@@ -109,12 +109,22 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-level="2"><a href="#1beam" class="nav-link">1.Beam模块介绍</a>
+            <li class="nav-item" data-level="2"><a href="#1beam" class="nav-link">1.Beam项目介绍</a>
               <ul class="nav flex-column">
               </ul>
             </li>
             
-            <li class="nav-item" data-level="2"><a href="#2beamsentry" class="nav-link">2.BeamSentry模块介绍</a>
+            <li class="nav-item" data-level="2"><a href="#2-beam-node" class="nav-link">2. Beam Node模块介绍</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#3-beam-sentry" class="nav-link">3. Beam Sentry模块介绍</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#4-beam-nexus" class="nav-link">4. Beam Nexus软件介绍</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -123,16 +133,23 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h2 id="1beam">1.Beam模块介绍</h2>
+<h2 id="1beam">1.Beam项目介绍</h2>
 <div align=center>
+<img src="./images/sentry/1-2.png" width=200 />
 <img src="./images/module-1.png" width=600 />
 </div>
 
-<p>Beam是一款针对FDM而开发，解决让大部分FDM设备具备wifi传输文件和wifi控制打印的功能。区别于树莓派，beam模块使用了更加简洁的微处理器来处理这些任务。
-- 便于配置
-- 低成本，高性价比
-- 可扩展
-- 可定制(固件开源)</p>
+<p>Beam系列的产品致力于让3D打印变得更智能化，通过IOT技术和机器学习技术，实现3D打印智能化的转变。 通过图像，声音以及加速度等传感器，来让整个3D打印系统更智能化。 核心硬件产品包括Beam Node和Beam Sentry。配合Beam Nexus控制软件，实现一整套的智能化流程。</p>
+<h2 id="2-beam-node">2. Beam Node模块介绍</h2>
+<p>Beam Node是一款针对FDM而开发，解决让大部分FDM设备具备wifi传输文件和wifi控制打印的功能。区别于树莓派，beam模块使用了更加简洁的微处理器来处理这些任务。</p>
+<ul>
+<li>OLED显示屏</li>
+<li>wifi传输文件</li>
+<li>wifi控制打印</li>
+<li>易于接入打印机，不需拆机接线</li>
+<li>丰富的扩展接口，可扩展其他传感器</li>
+<li>邮件打印通知</li>
+</ul>
 <p>Beam的基本参数规格:</p>
 <table>
 <thead>
@@ -180,8 +197,17 @@
 </tr>
 </tbody>
 </table>
-<h2 id="2beamsentry">2.BeamSentry模块介绍</h2>
-<p>Beam Camear是一个wifi摄像头，配合Beam使用，可以实现wifi监控以及打印失败检测等功能。同时BeamSentry还可以扩展接串口，以及断料检测模块。</p></div>
+<h2 id="3-beam-sentry">3. Beam Sentry模块介绍</h2>
+<ul>
+<li>wifi图传</li>
+<li>串口控制打印机</li>
+<li>视觉检测打印失败</li>
+<li>视觉检测烟雾，火苗</li>
+<li>邮件定时拍摄通知，事件触发邮件通知</li>
+</ul>
+<p>Beam Sentry是一款专门应用在3D打印领域的wifi摄像头，配合Beam Nexus的使用，可以实现wifi串口控制以及打印失败检测等功能。Beam Sentry目前提供了UART，I2C以及IO口，用户可以在其基础上扩展断料检测，温度传感器，继电器开关等一些类的外设和传感器。</p>
+<h2 id="4-beam-nexus">4. Beam Nexus软件介绍</h2>
+<p>Beam Nexus是管理Beam系列硬件的应用软件，除了wifi管理以外，Beam Nexus还实现了邮件通知，机器学习推理等功能，他是Beam系列产品的控制中心。</p></div>
             </div>
         </div>
 
@@ -262,5 +288,5 @@
 
 <!--
 MkDocs version : 1.2.3
-Build Date UTC : 2022-01-03 14:24:56.471133+00:00
+Build Date UTC : 2022-01-04 08:18:44.076393+00:00
 -->
