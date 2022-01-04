@@ -2,6 +2,9 @@
 
 <div align=center>
 <img src="./images/sentry/1-2.png" width=200 />
+</div>
+
+<div align=center>
 <img src="./images/module-1.png" width=600 />
 </div>
 
@@ -9,7 +12,7 @@ Beam系列的产品致力于让3D打印变得更智能化，通过IOT技术和�
 
 
 ## 2. Beam Node模块介绍
-Beam Node是一款针对FDM而开发，解决让大部分FDM设备具备wifi传输文件和wifi控制打印的功能。区别于树莓派，beam模块使用了更加简洁的微处理器来处理这些任务。
+Beam Node是一款针对FDM而开发，解决让大部分FDM设备具备wifi传输文件和wifi控制打印的模块。区别于树莓派，beam模块使用了更加简洁的微处理器来处理这些任务。
 
 - OLED显示屏
 - wifi传输文件
