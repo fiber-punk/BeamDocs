@@ -1,7 +1,7 @@
 ## 1. Beam项目介绍
 
 <div align=center>
-<img src="./images/beam-nuxces.png" width=600 />
+<img src="./images/BeamNexcus-ui.png" width=600 />
 </div>
 
 Beam系列的产品致力于让3D打印变得更智能化，通过IOT技术和机器学习技术，实现3D打印智能化的转变。 通过图像，声音以及加速度等传感器，来让整个3D打印系统更智能化。 核心硬件产品包括Beam Node和Beam Sentry。配合Beam Nexus控制软件，软件硬件结合，实现一整套的智能化流程。
@@ -59,5 +59,9 @@ Beam Sentry是一款专门应用在3D打印领域的wifi摄像头，配合Beam N
 </div>
 
 Beam Nexus是管理Beam系列硬件的应用软件，他可以同时管理多台Beam模块,也就意味着他可以管理多台打印机。除了wifi管理以外，Beam Nexus还实现了邮件通知，机器学习推理等功能，他是Beam系列产品的控制中心。
+
+下图为使用BeamNexcus进行打印失败检测:
+
+![img alt ><](./images/sentry/1-2-1.png "打印失败检测")
 
 

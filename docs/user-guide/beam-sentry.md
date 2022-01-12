@@ -6,11 +6,8 @@
 
 Beamsentry产品如下图:
 
-![img alt ><](../images/sentry/1-1.png)
+![img alt ><](../images/sentry/1-1-1.png)
 
-![img alt ><](../images/sentry/1-2.png)
-
-![img alt ><](../images/sentry/1-3.png)
 
 侧面的插口，一个是串口，用来接3D电机，一个是IO控制口，可以扩展断料检测。有RX和TX丝印的一侧表示串口端口。
 
@@ -38,6 +35,8 @@ Beamsentry的配网跟BeamNode一样，需要使用SD卡配网。 可以参考�
 ![img alt ><](../images/sentry/1-6.png)
 
 双击你要打开的sentry，会弹出如下界面:
-![img alt ><](../images/sentry/1-7.png)
+![img alt ><](../images/sentry/1-7-1.png)
 
 点击capture test，会拍摄一张图片，并显示在窗口右侧。 在Gcode输入栏里面，输入您想要让串口发送的指令，sentry就会通过串口给打印机下发对应的指令。 Toggle Detector就会触发检测，开启打印失败检测。(后面会加入相关配置选项，以及烟雾火苗检测，还有基本的gcode发送按钮)
+
+![img alt ><](../images/sentry/1-2-1.png)
