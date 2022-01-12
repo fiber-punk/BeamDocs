@@ -40,7 +40,7 @@ Beam的基本参数规格:
 ## 3. Beam Sentry模块介绍
 
 <div align=center>
-<img src="./images/sentry/1-1-1.png" />
+<img src="./images/sentry/1-1-1.png" width=600 />
 </div>
 
 - wifi图传
