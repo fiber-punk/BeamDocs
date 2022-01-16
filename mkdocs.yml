@@ -2,15 +2,10 @@ site_name: Beam Docs
 site_url: https://example.com/
 nav:
     - Home: index.md
-    - Getting Started: start.md
-    - User Guide:
-        - Beam Module: user-guide/beam-module.md
-        - Beam Sentry: user-guide/beam-sentry.md
-        - Beam Manager: user-guide/beam-manager.md
-        - Octo Beam: user-guide/beam-octo.md
-    - Developer Guide:
-        - Beam Source Code: dev-guide/beam-source-code.md
-    - About: about.md
+    - QuickStart: start.md
+    - FAQ: FAQ.md
+    - API&OctoBeam: beam-octo.md
+
 
 markdown_extensions:
   - attr_list
