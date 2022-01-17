@@ -2,47 +2,47 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://example.com/</loc>
-         <lastmod>2022-01-16</lastmod>
+         <lastmod>2022-01-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/FAQ/</loc>
-         <lastmod>2022-01-16</lastmod>
+         <lastmod>2022-01-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/about/</loc>
-         <lastmod>2022-01-16</lastmod>
+         <lastmod>2022-01-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/beam-octo/</loc>
-         <lastmod>2022-01-16</lastmod>
+         <lastmod>2022-01-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/start/</loc>
-         <lastmod>2022-01-16</lastmod>
+         <lastmod>2022-01-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/dev-guide/beam-source-code/</loc>
-         <lastmod>2022-01-16</lastmod>
+         <lastmod>2022-01-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/user-guide/beam-manager/</loc>
-         <lastmod>2022-01-16</lastmod>
+         <lastmod>2022-01-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/user-guide/beam-module/</loc>
-         <lastmod>2022-01-16</lastmod>
+         <lastmod>2022-01-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/user-guide/beam-sentry/</loc>
-         <lastmod>2022-01-16</lastmod>
+         <lastmod>2022-01-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>

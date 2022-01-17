@@ -1,5 +1,9 @@
-site_name: Beam Docs
+site_name: Fiberpunk-Beam Docs
 site_url: https://example.com/
+
+theme:
+  name: material
+
 nav:
     - Home: index.md
     - QuickStart: start.md
