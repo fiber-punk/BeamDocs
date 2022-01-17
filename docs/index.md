@@ -63,7 +63,9 @@ Beam Nexus是管理Beam系列硬件的应用软件，他可以同时管理多台
 下图为使用BeamNexcus进行打印失败检测:
 
 <div align=center>
-<img src="./images/sentry/1-2-1.png" width=600 />
+<img src="./images/sentry/1-2-1.jpg" width=600 />
 </div>
 
-
+<div align=center>
+<img src="./images/sentry/1-3-1.jpg" width=600 />
+</div>

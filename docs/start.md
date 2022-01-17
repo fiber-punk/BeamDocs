@@ -110,5 +110,24 @@ Sentry作为一个单独的模块使用时，您同样可以实现各种打印�
 4. BeamNexcus搜索设备
 5. 使用功能Sentry进行监控管理
 
+首先打开软件，点击Search Devices(请确保配网完成了))。搜索一会以后，搜到设备后显示如下:
+![img alt ><](./images/sentry/1-6.png)
+
+双击你要打开的sentry，会弹出如下界面:
+![img alt ><](./images/sentry/1-7-1.jpg)
+
+点击capture test，会拍摄一张图片，并显示在窗口右侧。 在Gcode输入栏里面，输入您想要让串口发送的指令，sentry就会通过串口给打印机下发对应的指令。 Toggle Detector就会触发检测，开启打印失败检测。
+
 
 ## 4. 更新BeamNode固件
+
+更新BeamNode固件，需要分别下载BeamFlash和BeamNode的固件。 下载链接如下:
+
+- [BeamFlash](https://github.com/fiberpunk1/Beam-ESP32/releases/download/Beta-v0.1.0/BeamFlash-Installer.exe)
+- [BeamNode firmware](https://github.com/fiberpunk1/Beam-ESP32/releases)
+
+下载安装BeamFlash之后, 用Type-C数据线链接您的BeamNode到PC电脑, 打开BeamFlash, 按照下图所示烧录下载的最新的BeamNode固件。
+
+![img alt ><](./images/update-bin.png)
+
+> 注意: 如果您更新了BeamNode的固件，请务必使用相同版本号的BeamNexcus
