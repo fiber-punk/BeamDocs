@@ -62,7 +62,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#1beamnuxcusmsvcp140dll-not-found-vcruntime140dll-not-found" class="md-skip">
+        <a href="#1beamnexusmsvcp140dll-not-found-vcruntime140dll-not-found" class="md-skip">
           Skip to content
         </a>
       
@@ -241,8 +241,8 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#1beamnuxcusmsvcp140dll-not-found-vcruntime140dll-not-found" class="md-nav__link">
-    1.运行BeamNuxcus提示"MSVCP140.dll not found" "VCRUNTIME140.dll not found
+  <a href="#1beamnexusmsvcp140dll-not-found-vcruntime140dll-not-found" class="md-nav__link">
+    1.运行BeamNexus提示"MSVCP140.dll not found" "VCRUNTIME140.dll not found
   </a>
   
 </li>
@@ -276,8 +276,15 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#6-beamnuxces" class="md-nav__link">
-    6. 为什么BeamNuxces无法发送邮件?
+  <a href="#6-beamnexus" class="md-nav__link">
+    6. 为什么BeamNexus无法发送邮件?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-beamnuxuscrash" class="md-nav__link">
+    7. BeamNuxus的本地推理功能导致crash?
   </a>
   
 </li>
@@ -330,8 +337,8 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#1beamnuxcusmsvcp140dll-not-found-vcruntime140dll-not-found" class="md-nav__link">
-    1.运行BeamNuxcus提示"MSVCP140.dll not found" "VCRUNTIME140.dll not found
+  <a href="#1beamnexusmsvcp140dll-not-found-vcruntime140dll-not-found" class="md-nav__link">
+    1.运行BeamNexus提示"MSVCP140.dll not found" "VCRUNTIME140.dll not found
   </a>
   
 </li>
@@ -365,8 +372,15 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#6-beamnuxces" class="md-nav__link">
-    6. 为什么BeamNuxces无法发送邮件?
+  <a href="#6-beamnexus" class="md-nav__link">
+    6. 为什么BeamNexus无法发送邮件?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-beamnuxuscrash" class="md-nav__link">
+    7. BeamNuxus的本地推理功能导致crash?
   </a>
   
 </li>
@@ -386,7 +400,7 @@
 
   <h1>FAQ</h1>
 
-<h4 id="1beamnuxcusmsvcp140dll-not-found-vcruntime140dll-not-found">1.运行BeamNuxcus提示"MSVCP140.dll not found" "VCRUNTIME140.dll not found</h4>
+<h4 id="1beamnexusmsvcp140dll-not-found-vcruntime140dll-not-found">1.运行BeamNexus提示"MSVCP140.dll not found" "VCRUNTIME140.dll not found</h4>
 <p>有一些Windows系统会提示上述错误，如果出现，请参考如下链接:</p>
 <p>https://docs.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170</p>
 <p>下载最新的C++ Redistributable 安装包。</p>
@@ -398,7 +412,7 @@
 <h4 id="2-beamnodewifi">2. 我的BeamNode无法连接wifi,是什么原因?</h4>
 <p>可能的原因:</p>
 <ul>
-<li>SD卡配网失败,BeamNuxces没有使用管理员权限运行，导致写SD卡失败</li>
+<li>SD卡配网失败,BeamNexus没有使用管理员权限运行，导致写SD卡失败</li>
 <li>BeamNode只支持2.4G网络</li>
 <li>距离路由器太远，wifi信号太弱</li>
 </ul>
@@ -415,12 +429,14 @@
 后续会增加声音，陀螺仪等各种传感器。 您可以关注我们的github源码，获取更多信息。</p>
 <h4 id="5-beam">5. 为什么我的局域网搜不到我的Beam设备?</h4>
 <p>请确定您的PC处在的网络是否和Beam设备在同一个局域网内。 如果不是同一个局域网，需要您手动指定Beam设备的IP。 相关说明参考QuickStart中连接网络的说明。</p>
-<p>此外，如果您的电脑使用了VPN，也可能会影响BeamNexcus搜索设备</p>
-<h4 id="6-beamnuxces">6. 为什么BeamNuxces无法发送邮件?</h4>
+<p>此外，如果您的电脑使用了VPN，也可能会影响BeamNexus搜索设备</p>
+<h4 id="6-beamnexus">6. 为什么BeamNexus无法发送邮件?</h4>
 <p>有两个原因:
 - 请检查谷歌邮箱账号是否开启了未认证设备登录许可,参考QuickStart中的说明
-- 使用VPN也可能导致BeamNuxces无法发送邮件
-- 您的防火墙设置了BeamNexcus无法发送邮件。</p>
+- 使用VPN也可能导致BeamNexus无法发送邮件
+- 您的防火墙设置了BeamNexus无法发送邮件。</p>
+<h4 id="7-beamnuxuscrash">7. BeamNuxus的本地推理功能导致crash?</h4>
+<p>如果您选择了Openvino来进行本地推理，但是您的PC电脑不是Intel的，且早于6代处理器，那么就会出现异常。此时，建议您使用纯CPU来指令来进行推理。</p>
 
               
             </article>
