@@ -8,14 +8,14 @@
       
       
       
-        <link rel="canonical" href="https://example.com/about/">
+        <link rel="canonical" href="https://example.com/doc_zh/">
       
       <link rel="icon" href="../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-8.1.7">
     
     
       
-        <title>About us - Fiberpunk-Beam Docs</title>
+        <title>Index - Fiberpunk-Beam Docs</title>
       
     
     
@@ -62,7 +62,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#about-us" class="md-skip">
+        <a href="#1-beam" class="md-skip">
           Skip to content
         </a>
       
@@ -95,7 +95,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              About us
+              Index
             
           </span>
         </div>
@@ -250,8 +250,42 @@
   
   
   
-    
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-beam" class="md-nav__link">
+    1. Beam项目介绍
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-beam-node" class="md-nav__link">
+    2. Beam Node模块介绍
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-beam-sentry" class="md-nav__link">
+    3. Beam Sentry模块介绍
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-beam-nexus" class="md-nav__link">
+    4. Beam Nexus软件介绍
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -264,7 +298,102 @@
               
                 
 
-<h1 id="about-us">About us</h1>
+  <h1>Index</h1>
+
+<h2 id="1-beam">1. Beam项目介绍</h2>
+<div align=center>
+<img src="./images/BeamNexcus-ui.png"  />
+</div>
+
+<p>Beam系列的产品致力于让3D打印变得更智能化，通过IOT技术和机器学习技术，实现3D打印智能化的转变。 通过图像，声音以及加速度等传感器，来让整个3D打印系统更智能化。 核心硬件产品包括Beam Node和Beam Sentry。配合Beam Nexus控制软件，软件硬件结合，实现一整套的智能化流程。</p>
+<h2 id="2-beam-node">2. Beam Node模块介绍</h2>
+<div align=center>
+<img src="./images/module-1.jpg" />
+</div>
+
+<p>Beam Node是一款针对FDM而开发，解决让大部分FDM设备具备wifi传输文件和wifi控制打印的模块。区别于树莓派，beam模块使用了更加简洁的微处理器来处理这些任务。</p>
+<ul>
+<li>OLED显示屏</li>
+<li>wifi传输文件</li>
+<li>wifi控制打印</li>
+<li>易于接入打印机，不需拆机接线</li>
+<li>丰富的扩展接口，可扩展其他传感器</li>
+<li>邮件打印通知</li>
+</ul>
+<p>Beam的基本参数规格:</p>
+<table>
+<thead>
+<tr>
+<th>参数名称</th>
+<th>规格</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>模块尺寸</td>
+<td>7.4x3.5cm</td>
+<td></td>
+</tr>
+<tr>
+<td>显示</td>
+<td>OLED(128X32)</td>
+<td></td>
+</tr>
+<tr>
+<td>存储</td>
+<td>SD卡</td>
+<td></td>
+</tr>
+<tr>
+<td>供电</td>
+<td>Type-C 5V</td>
+<td></td>
+</tr>
+<tr>
+<td>与打印机连接</td>
+<td>USB+SD卡共享</td>
+<td>USB和SD卡同时连接</td>
+</tr>
+<tr>
+<td>外壳</td>
+<td>3D打印</td>
+<td>提供开源模型</td>
+</tr>
+<tr>
+<td>对外扩展接口</td>
+<td>串口,I2C, 2个GPIO</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="3-beam-sentry">3. Beam Sentry模块介绍</h2>
+<div align=center>
+<img src="./images/sentry/1-1-1.jpg" />
+</div>
+
+<ul>
+<li>wifi图传</li>
+<li>串口控制打印机</li>
+<li>视觉检测打印失败</li>
+<li>视觉检测烟雾，火苗</li>
+<li>邮件定时拍摄通知，事件触发邮件通知</li>
+</ul>
+<p>Beam Sentry是一款专门应用在3D打印领域的wifi摄像头，配合Beam Nexus的使用，可以实现wifi串口控制以及打印失败检测等功能。Beam Sentry目前提供了UART，I2C以及IO口，用户可以在其基础上扩展断料检测，温度传感器，继电器开关等一系列的外设和传感器。</p>
+<h2 id="4-beam-nexus">4. Beam Nexus软件介绍</h2>
+<div align=center>
+<img src="./images/beam-main.png" />
+</div>
+
+<p>Beam Nexus是管理Beam系列硬件的应用软件，他可以同时管理多台Beam模块,也就意味着他可以管理多台打印机。除了wifi管理以外，Beam Nexus还实现了邮件通知，机器学习推理等功能，他是Beam系列产品的控制中心。</p>
+<p>下图为使用BeamNexcus进行打印失败检测:</p>
+<div align=center>
+<img src="./images/sentry/1-2-1.jpg" />
+</div>
+
+<div align=center>
+<img src="./images/sentry/1-3-1.jpg" />
+</div>
 
               
             </article>
