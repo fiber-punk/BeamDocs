@@ -1,12 +1,14 @@
 # 1. Beam Node Quick Start
 
-## 1. Instructions before use
+## 1. Before first time use
 
-It is strongly recommended that after purchasing our modules, download our shell and print out a shell using your printer. Pay attention to adding support when printing. The model shell is shown in the following figure:[外壳下载链接](https://github.com/fiberpunk1/Beam-ESP32/releases/download/Beta-v0.1.8/shell-stl.zip)
+Because electronic components are fragile, please download and print the Beam Node case here: [Node Case STL](https://github.com/fiberpunk1/Beam-ESP32/releases/download/Beta-v0.1.8/shell-stl.zip)
+You can use PLA for case material and may need to add support to print successfully.
+
 
 ![img](./images/shell.png)
 
-> The beta version of Beam Node will send a G28 command to the printer when it is just powered up. If you test it, please be careful not to let the platform have anything. Or update our official version.
+The current version of Beam Node will send a G28 command to the printer when it is just powered up. If you test it, please be careful not to let the platform have anything. Or update our official version.
 
 ## 2. Get started quickly
 
